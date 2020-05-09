@@ -7,7 +7,7 @@ def prime?(num)
     return false 
   elsif
     (2..num/2).each do |n|
-      if  num % n == 0
+      if  num % n != 0
         true
       end
     end
